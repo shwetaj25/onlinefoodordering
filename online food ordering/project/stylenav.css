@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+#top{
+    color:rgb(253, 247, 255);
+    text-align:right;
+    font-size:46px;
+    font-family:Harlow Solid Italic;
+    margin-top:0px;
+    margin-right: 0px;
+   
+    
+}
+
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+#navbar img{
+    display:block;
+    width: 60px;
+    height:60px;
+    margin:left;
+    margin-top: 0px;
+    justify-content: left;
+    list-style-type: style none;
+    border-radius:50px;
+    box-shadow:10vh pink;
+    margin-top: 0px;
+    
+}
+
+#navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(27, 25, 25);
+    height: 10vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:10px;
+    border: 2px solid black;
+    border-radius:10px;
+    list-style: none inline;
+     
+}
+
+
+#navcontent{
+    display: flex;
+    justify-content:right;
+    font-style: oblique 40deg;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color:rgb(61, 111, 218);
+    border-radius: 15px;
+}
+body{
+    background-color: black;
+}
+
+
+
+.cont{
+    display: flex;
+    margin-top: 15px;
+
+}
+.box{
+   
+    padding-left: 18px;
+    border-radius: 100px;
+    box-shadow: aliceblue;
+
+}
+label{
+    margin-top: 30px;
+    font-style: oblique;
+    color: white;
+}

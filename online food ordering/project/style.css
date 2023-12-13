@@ -1,0 +1,40 @@
+
+body
+{
+background-image:url("fas.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+.whitediv
+ {
+background-color:rgba(66, 57, 36, 0.557);
+ color: white;
+ height:350px;
+ width:300px;
+ margin-top:100px;
+ box-shadow:0 0 20px 2px white;
+ margin-left: 700px;
+ 
+
+ }
+ .button
+ {
+ height:40px;
+ width:70px;
+ border-radius:10px;
+ background-color:skyblue;
+ }
+ .button:hover
+ {
+ height:40px;
+ width:70px;
+ background-color:pink;
+
+ }
+      a{
+        color:aqua;
+      }
+      a:hover{
+        color:brown;
+      }

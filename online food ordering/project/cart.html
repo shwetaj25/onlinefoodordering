@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .cart-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .total {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .checkout-btn {
+            display: block;
+            margin-top: 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .empty-cart {
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Oniline food ordering system - Our Cart</h1>
+    </header>
+
+    <section>
+        <div class="cart-item">
+            <h2>Garlic Parmesan Fries</h2>
+            <p><strong>Quantity:</strong> 2</p>
+            <p><strong>Total:</strong> $11.98</p>
+        </div>
+
+        <div class="cart-item">
+            <h2>Spinach and Artichoke Dip</h2>
+            <p><strong>Quantity:</strong> 1</p>
+            <p><strong>Total:</strong> $7.99</p>
+        </div>
+
+        <!-- Add more cart items as needed -->
+
+        <div class="total">
+            <p><strong>Cart Total: </strong> $19.97</p>
+        </div>
+
+        <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+
+        <p class="empty-cart">Your cart is empty. Add items from the <a href="menu.html">menu</a>.</p>
+    </section>
+
+    <footer>
+        <p>© 2023 online food ordering . All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>

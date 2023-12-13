@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+
+
+.cont{
+    display: flex;
+    margin-top: 15px;
+
+}
+.box{
+   
+    padding-left: 18px;
+    border-radius: 100px;
+    box-shadow: aliceblue;
+
+}
+label{
+    margin-top: 30px;
+    font-style: oblique;
+    color: white;
+}
